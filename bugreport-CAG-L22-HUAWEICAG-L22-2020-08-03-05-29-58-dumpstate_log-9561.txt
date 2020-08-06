@@ -1,0 +1,99 @@
+can't find the pid
+Failed to find: /data/misc/anrd/
+Skipping systrace because '/sys/kernel/debug/tracing/tracing_on' content is '0'
+Setting progress (Shell): 120/4115
+Adding dir /cache/recovery (recursive: 1)
+Duration of '/cache/recovery': 0.003s
+Adding dir /data/misc/recovery (recursive: 1)
+Duration of '/data/misc/recovery': 0.009s
+Adding dir /data/misc/logd (recursive: 0)
+/data/misc/logd: No such file or directory
+Duration of '/data/misc/logd': 0.000s
+MOUNT INFO: 23 entries added to zip file
+Duration of 'MOUNT INFO': 0.105s
+/sys/block/zram0: Permission denied
+Setting progress (Shell): 225/4115
+Setting progress (Shell): 325/4115
+open(/bugreports/dumpstate_lshal.txt): No such file or directory
+Skipping 'lsmod' because /proc/modules does not exist
+Setting progress (Shell): 425/4115
+Setting progress (Shell): 525/4115
+Setting progress (Shell): 625/4115
+Setting progress (Shell): 725/4115
+Setting progress (Shell): 825/4115
+Setting progress (Shell): 925/4115
+Setting progress (Shell): 1025/4115
+Setting progress (Shell): 1125/4115
+Setting progress (Shell): 1225/4115
+Setting progress (Shell): 1325/4115
+Setting progress (Shell): 1425/4115
+Setting progress (Shell): 1525/4115
+Setting progress (Shell): 1625/4115
+Setting progress (Shell): 1725/4115
+Setting progress (Shell): 1825/4115
+Setting progress (Shell): 1925/4115
+Setting progress (Shell): 2025/4115
+Setting progress (Shell): 2125/4115
+Setting progress (Shell): 2225/4115
+Setting progress (Shell): 2325/4115
+Setting progress (Shell): 2425/4115
+Setting progress (Shell): 2525/4115
+Setting progress (Shell): 2625/4115
+Setting progress (Shell): 2725/4115
+Setting progress (Shell): 2825/4115
+Setting progress (Shell): 2925/4115
+Setting progress (Shell): 3025/4115
+Setting progress (Shell): 3125/4115
+Setting progress (Shell): 3225/4115
+Setting progress (Shell): 3325/4115
+Adding dir /data/misc/bluetooth/logs (recursive: 1)
+Duration of '/data/misc/bluetooth/logs': 0.009s
+logctl_get: open '/dev/hwlog_switch' fail -1, 13. Permission denied
+
+Note: log switch off, only log_main and log_events will have logs!
+Setting progress (Shell): 3454/4115
+logctl_get: open '/dev/hwlog_switch' fail -1, 13. Permission denied
+
+Note: log switch off, only log_main and log_events will have logs!
+logctl_get: open '/dev/hwlog_switch' fail -1, 13. Permission denied
+
+Note: log switch off, only log_main and log_events will have logs!
+logctl_get: open '/dev/hwlog_switch' fail -1, 13. Permission denied
+
+Note: log switch off, only log_main and log_events will have logs!
+logctl_get: open '/dev/hwlog_switch' fail -1, 13. Permission denied
+
+Note: log switch off, only log_main and log_events will have logs!
+AddAnrTraceDir(): dump_traces_file=/data/anr/dumptrace_JKYqlS, anr_traces_dir=/data/anr
+Dumping current ANR traces (/data/anr/dumptrace_JKYqlS) to the main bugreport entry
+Error unlinking temporary trace path /data/anr/dumptrace_JKYqlS: Permission denied
+Setting progress (Shell): 3554/4115
+execvp on command 'parse_radio_log /proc/last_radio_log' failed (error: Permission denied)
+*** command 'parse_radio_log /proc/last_radio_log' failed: exit code 1
+Setting progress (Shell): 3654/4115
+No IDumpstateDevice implementation
+Can't find service: android.service.gatekeeper.IGateKeeperService
+Error dumping service info: (Unknown error -2147483646) dumpstate
+Error dumping service info: (Unknown error -2147483646) faultdetectservice
+Error dumping service info: (Unknown error -2147483646) jank
+Error dumping service info: (Unknown error -2147483646) storaged
+Setting progress (Shell): 3784/4115
+Setting progress (Shell): 3904/4115
+Setting progress (Shell): 4024/4115
+Adding main entry (bugreport-CAG-L22-HUAWEICAG-L22-2020-08-03-05-29-58.txt) from /data/user_de/0/com.android.shell/files/bugreports/bugreport-CAG-L22-HUAWEICAG-L22-2020-08-03-05-29-58.tmp to .zip bugreport
+dumpstate id 1 finished around 2020/08/03 05:31:38 (100 s)
+Adding zip text entry main_entry.txt
+dumpstate_log.txt entry on zip file logged up to here
+
+Removing temporary file /data/user_de/0/com.android.shell/files/bugreports/bugreport-CAG-L22-HUAWEICAG-L22-2020-08-03-05-29-58.tmp
+Vibrate: 'cmd vibrator vibrate 75 dumpstate'
+Vibrate: 'cmd vibrator vibrate 75 dumpstate'
+Vibrate: 'cmd vibrator vibrate 75 dumpstate'
+Final bugreport path: /data/user_de/0/com.android.shell/files/bugreports/bugreport-CAG-L22-HUAWEICAG-L22-2020-08-03-05-29-58.zip
+Sending broadcast: '/system/bin/cmd activity broadcast --user 0 --receiver-foreground --receiver-include-background -a com.android.internal.intent.action.BUGREPORT_FINISHED --receiver-permission android.permission.DUMP --ei android.intent.extra.ID 1 --ei android.intent.extra.PID 9561 --ei android.intent.extra.MAX 4115 --es android.intent.extra.BUGREPORT /data/user_de/0/com.android.shell/files/bugreports/bugreport-CAG-L22-HUAWEICAG-L22-2020-08-03-05-29-58.zip --es android.intent.extra.DUMPSTATE_LOG /data/user_de/0/com.android.shell/files/bugreports/bugreport-CAG-L22-HUAWEICAG-L22-2020-08-03-05-29-58-dumpstate_log-9561.txt'
+drop_root_user(): already running as Shell
+Broadcasting: Intent { act=com.android.internal.intent.action.BUGREPORT_FINISHED flg=0x11400000 (has extras) }
+Broadcast completed: result=0
+Final progress: 4104/4115 (estimated 4115)
+Saving stats (total=28794, runs=7, average=4113) on /data/user_de/0/com.android.shell/files/bugreports/dumpstate-stats.txt
+done (id 1)
